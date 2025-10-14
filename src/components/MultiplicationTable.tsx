@@ -1,4 +1,3 @@
-// src\components\MultiplicationTable.tsx
 import { useState } from "react";
 
 export default function MultiplicationTable() {
@@ -8,14 +7,11 @@ export default function MultiplicationTable() {
   const generateTable = () => {
     if (number === null || isNaN(number)) return;
     const result = Array.from({ length: 10 }, (_, i) => (i + 1) * number);
-    console.log(result);
     setTable(result);
   };
 
   return (
-    <div className="h-full w-full p-6">
-      <h1 className="text-2xl font-bold mb-4">Tablas de Multiplicar</h1>
-
+    <div className="w-full">
       <div className="flex gap-2 mb-4">
         <input
           type="number"
@@ -31,7 +27,6 @@ export default function MultiplicationTable() {
           Generar
         </button>
       </div>
-
       {table.length > 0 && (
         <div className="bg-gray-100 rounded-lg p-4 shadow">
           <h2 className="text-lg font-semibold mb-2">Tabla del {number}</h2>
