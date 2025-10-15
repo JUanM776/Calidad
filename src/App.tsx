@@ -1,5 +1,5 @@
 import SearchList from "./components/SearchList";
-import MultiplicationTable from "./components/MultiplicationTable";
+mport MultiplicationTable from "./components/MultiplicationTable";
 
 export default function App() {
   return (
