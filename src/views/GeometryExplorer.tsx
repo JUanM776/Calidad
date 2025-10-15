@@ -6,7 +6,7 @@ export default function GeometryExplorer() {
   const [, setScene] = useState<THREE.Scene | null>(null);
   const [cube, setCube] = useState<THREE.Mesh | null>(null);
   const [, setRenderer] = useState<THREE.WebGLRenderer | null>(null);
-  const [rotation, setRotation] = useState(false);
+  cnst [rotation, setRotation] = useState(false);
 
   // Inicialización de la escena
   useEffect(() => {
