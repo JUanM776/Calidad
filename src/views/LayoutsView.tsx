@@ -21,7 +21,7 @@ export default function LayoutsView() {
         <div className="max-w-prose md:max-w-3xl mx-auto">
           <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-100">
             MaxWidth para textos
-          </h3>
+          </>
           <p className="mt-2 text-slate-700 dark:text-slate-200 leading-relaxed">
             Controla el ancho máximo del bloque de texto con <code>max-w-prose</code> 
             o <code>max-w-3xl</code> y centra con <code>mx-auto</code>. Esto mejora la 
